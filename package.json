@@ -1,0 +1,35 @@
+{
+  "name": "transaction",
+  "version": "1.0.0",
+  "description": "트랜잭션 랜딩 실습 — Solana(Helius) / Ethereum(Tatum)",
+  "main": "index.js",
+  "scripts": {
+    "sol:00": "node --env-file-if-exists=.env node_modules/.bin/tsx src/solana/00-create-wallet.ts",
+    "sol:01": "node --env-file-if-exists=.env node_modules/.bin/tsx src/solana/01-balance.ts",
+    "eth:00": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/00-create-wallet.ts",
+    "eth:01": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/01-balance.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyun522/transaction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/hyun522/transaction/issues"
+  },
+  "homepage": "https://github.com/hyun522/transaction#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.99.0",
+    "bs58": "^6.0.0",
+    "viem": "^2.56.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  }
+}
