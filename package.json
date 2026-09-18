@@ -8,7 +8,10 @@
     "sol:01": "node --env-file-if-exists=.env node_modules/.bin/tsx src/solana/01-balance.ts",
     "eth:00": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/00-create-wallet.ts",
     "eth:01": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/01-balance.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "eth:02": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/02-send.ts",
+    "eth:03": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/03-fail.ts",
+    "eth:04": "node --env-file-if-exists=.env node_modules/.bin/tsx src/ethereum/04-replace.ts"
   },
   "repository": {
     "type": "git",
