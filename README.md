@@ -1,7 +1,7 @@
 # 트랜잭션 랜딩 실습
 
 솔라나(Helius)와 이더리움(Tatum)에 직접 트랜잭션을 보내보는 실습 저장소입니다.
-개념 정리와 체크리스트는 [`tx-guide.md`](./tx-guide.md) 에 있습니다.
+개념 정리와 체크리스트는 [`tx-guide.md`](./docs/tx-guide.md) 에 있습니다.
 
 > ⚠️ **전부 테스트넷 전용입니다.** Solana devnet / Ethereum Sepolia.
 > 실제 돈이 들어있는 지갑의 개인키를 이 저장소에 넣지 마세요.
@@ -53,7 +53,7 @@ npm run eth:01      # 이더리움 잔액 + nonce + gas price
 
 ## 스크립트 목록
 
-파일 번호는 [`tx-guide.md`](./tx-guide.md) 6번 섹션의 **"안 되는 거" 4가지 유형**과 대응합니다.
+파일 번호는 [`tx-guide.md`](./docs/tx-guide.md) 6번 섹션의 **"안 되는 거" 4가지 유형**과 대응합니다.
 
 ### 솔라나 (`src/solana/`)
 
